@@ -1,0 +1,13 @@
+-id | PRIMARY_KEY UNIQUE NOT_NULL
+-marca | VARCHAR(50) INDEX NOT_NULL
+-modello | VARCHAR(50) INDEX NOT_NULL
+-immatricolazione | DATE NOT_NULL
+-chilometraggio | MEDIUMINT UNSIGNED NOT_NULL
+-prezzo | DECIMAL(10,2) INDEX NOT_NULL
+-targa | CHAR(7) UNIQUE NOT_NULL
+-tagliando | TINYINT(1) NOT_NULL
+-carburante | VARCHAR(25) NOT_NULL
+-carrozzeria | VARCHAR(20) NULL
+-cavalli | SMALLINT UNSIGNED NULL
+-cilindrata | DECIMAL(4,2) NULL
+-descrizione | TEXT NULL
